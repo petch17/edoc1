@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
 
@@ -16,7 +16,7 @@
     <form action="#" method="POST">
 
         Short Description: <br>
-        <textarea cols="50" id="editor1" name="editor1" rows="10"></textarea> <br>
+        <textarea name="editor1" rows="10" cols="50" ></textarea> <br>
 
         <script type="text/javascript">
 

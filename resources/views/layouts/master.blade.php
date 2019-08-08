@@ -46,7 +46,9 @@
         <link rel="stylesheet" type="text/css" href="{{asset('assets/css/ionicons.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('assets/css/jquery.mCustomScrollbar.css')}}">
         
+        <!-- ckeditor -->
         <script src="{{asset('ckeditor/ckeditor.js')}}"></script>
+        <!-- <script src="//cdn.ckeditor.com/4.12.1/full/ckeditor.js"></script> -->
 
     </head>
 
