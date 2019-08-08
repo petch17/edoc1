@@ -74,7 +74,7 @@
                             <a class="mobile-search morphsearch-search" href="#">
                                 <i class="ti-search"></i>
                             </a>
-                            <a href="index.html">
+                            <a href="{{route('home')}}">
                                 <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
                             </a>
                             <a class="mobile-options">
@@ -194,7 +194,7 @@
                                         </a>
                                         <ul class="pcoded-submenu">
                                             <li class=" ">
-                                                <a href="#">
+                                                <a href="{{route('inbox.index')}}">
                                                     <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                     <span class="pcoded-mtext" data-i18n="nav.bootstrap-table.basic-table">เอกสารที่ส่ง</span>
                                                     <span class="pcoded-mcaret"></span>
@@ -217,9 +217,9 @@
                                         </ul>
                                     </li>
                                     <li class=" ">
-                                        <a href="#">
+                                        <a href="{{route('ckediter.index')}}">
                                             <span class="pcoded-micon"><i class="ti-view-list-alt"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.foo-table.main">ไม่รู้จะใส่อะไร</span>
+                                            <span class="pcoded-mtext" data-i18n="nav.foo-table.main">สร้างเอกสาร</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
@@ -233,7 +233,7 @@
                                     <div class="page-wrapper">
                                         <div class="page-header">
                                             <div class="page-header-title">
-                                                <h2>Welcome</h2>
+                                                <h2>สวัสดีครับ / ค่ะ</h2>
                                             </div>
 
                                         </div>
