@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-
+<div class="card">
+<div class="card-block">
     <center> 
         <div class="page-header-title">
             <h1> HEAD </h1>           
@@ -15,7 +16,7 @@
     </center>
     <form action="#" method="POST">
 
-        Short Description: <br>
+        Short Description : <br>
         <textarea name="editor1" rows="10" cols="50" ></textarea> <br>
 
         <script type="text/javascript">
@@ -24,7 +25,7 @@
 
                 height: "200px", //กำหนดความสูง  
 
-                width: "720px", //กำหนดความกว้าง  
+                width: "", //กำหนดความกว้าง  
 
                 toolbar: //กลุ่มเครื่องมือ ตัดออก เพิ่มเข้าได้  
 
@@ -57,7 +58,10 @@
 
         </script> <br>
 
-        <input type="submit" name="submit" value="ยืนยัน">
-    </form>
+        <input type="submit" class="btn btn-primary" name="submit" value="ยืนยัน">
+        <input type="reset" class="btn btn-danger" name="reset" value="ยกเลิก">
 
+    </form>
+</div>
+</div>
 @endsection
