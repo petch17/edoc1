@@ -238,9 +238,8 @@
 
                                         </div>
                                         <div class="page-body">
-
+                                        
                                             @yield('content')
-
 
                                         </div>
                                     </div>

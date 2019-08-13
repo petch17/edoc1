@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="card">
-<div class="card-block">
+    <div class="card-block">
     <center> 
         <div class="page-header-title">
             <h1> HEAD </h1>           
@@ -62,6 +62,6 @@
         <input type="reset" class="btn btn-danger" name="reset" value="ยกเลิก">
 
     </form>
-</div>
+    </div>
 </div>
 @endsection
